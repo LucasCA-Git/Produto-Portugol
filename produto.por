@@ -18,14 +18,6 @@ programa {
         escreva("\n═══════════════════════════════════════════════════════\n")
         escreva("             CADASTRO DE PRODUTOS QUÍMICOS\n")
         escreva("═══════════════════════════════════════════════════════\n")
-        escreva("Categorias disponíveis:\n")
-        escreva("  [1] Limpeza\n")
-        escreva("  [2] Cosmeticos\n")
-        escreva("  [3] Medicinal\n")
-        escreva("  [4] Inflamável\n")
-        escreva("  [5] Corrosivos\n")
-        escreva("  [0] outros\n")
-        escreva("═══════════════════════════════════════════════════════\n")
         enquanto (verdadeiro) {
             escreva("\n-------------------------------------------------------\n")
             escreva("Escolha uma opção:\n")
@@ -50,6 +42,14 @@ programa {
                 }
             }
             senao se (opcao == 1) {
+    escreva("═══════════════════════════════════════════════════════\n")            
+    escreva("Categorias disponíveis:\n")
+    escreva("  [1] Limpeza\n")
+    escreva("  [2] Cosmeticos\n")
+    escreva("  [3] Medicinal\n")
+    escreva("  [4] Inflamável\n")
+    escreva("  [5] Corrosivos\n")
+    escreva("═══════════════════════════════════════════════════════\n")            
     escreva("\n📦 Produto ", codigo, "\n")
     escreva("» Nome do produto: ")
     leia(nome)
@@ -131,5 +131,3 @@ programa {
         escreva("═══════════════════════════════════════════════════════\n")
     }
 }
-
-
